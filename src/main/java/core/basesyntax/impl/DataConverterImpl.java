@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class DataConverterImpl implements DataConverter {
-
     @Override
     public List<FruitTransaction> convertToTransaction(List<String> inputData) {
         return inputData.stream()
