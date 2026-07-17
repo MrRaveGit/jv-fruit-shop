@@ -1,10 +1,10 @@
 package core.basesyntax;
 
-import core.basesyntax.impl.DataConverterImpl;
-import core.basesyntax.impl.FileReaderImpl;
-import core.basesyntax.impl.FileWriterImpl;
-import core.basesyntax.impl.ReportGeneratorImpl;
-import core.basesyntax.impl.ShopServiceImpl;
+import core.basesyntax.service.impl.DataConverterImpl;
+import core.basesyntax.service.impl.FileReaderImpl;
+import core.basesyntax.service.impl.FileWriterImpl;
+import core.basesyntax.service.impl.ReportGeneratorImpl;
+import core.basesyntax.service.impl.ShopServiceImpl;
 import core.basesyntax.model.FruitTransaction;
 import core.basesyntax.service.DataConverter;
 import core.basesyntax.service.FileReader;

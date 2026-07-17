@@ -1,4 +1,4 @@
-package core.basesyntax.impl;
+package core.basesyntax.service.impl;
 
 import core.basesyntax.db.Storage;
 import core.basesyntax.service.ReportGenerator;
@@ -11,7 +11,7 @@ public class ReportGeneratorImpl implements ReportGenerator {
     public String getReport() {
         StringBuilder builder = new StringBuilder();
         builder.append(HEADER);
-        for (Map.Entry<String, Integer> entry : Storage.fruits.entrySet()) {
+        for (Map.Entry<String, Integer> entry : Storage.getFruits().entrySet()) {
             builder.append(entry.getKey())
                     .append(",")
                     .append(entry.getValue())
